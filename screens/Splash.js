@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
 
 import Loader from '../components/Loader';
+// import { TextInput } from 'react-native-gesture-handler';
 
 export default class SplashScreen extends React.Component {
   state = {
@@ -41,9 +42,10 @@ export default class SplashScreen extends React.Component {
           backgroundStyle={styles.loadingBackgroundStyle}
         >
           <View style={styles.container}>
+            <TextInput>empty space</TextInput>
             <Button
               onPress={() => this.props.navigation.navigate('Home')}
-              title="Home"
+              title="Login"
             />
           </View>
         </Loader>
