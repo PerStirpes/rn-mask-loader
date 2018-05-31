@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { Util } from 'expo';
 
-import Loader from './Loader';
+import Loader from './components/Loader';
 
 export default class App extends React.Component {
   state = {
