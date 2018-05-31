@@ -13,7 +13,7 @@ export default class App extends React.Component {
   constructor() {
     super();
 
-    this._image = require('./white-bg.png');
+    this._image = require('./images/white-bg.png');
   }
 
   componentDidMount() {
