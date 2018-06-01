@@ -2,8 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
 
 import Loader from '../components/Loader';
-// import { TextInput } from 'react-native-gesture-handler';
-
 export default class SplashScreen extends React.Component {
   state = {
     appReady: false,
